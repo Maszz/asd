@@ -7,7 +7,7 @@ async function bootstrap() {
   const whitelist = [
     'localhost:3000',
     'localhost:3001',
-    'http://localhost:4200',
+    'http://localhost:3001',
   ];
   app.enableCors({
     origin: function (origin, callback) {
